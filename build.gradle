@@ -20,6 +20,8 @@ dependencies {
 	runtimeOnly 'com.h2database:h2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.security:spring-security-test'
+	implementation group: 'com.github.jsimone', name: 'webapp-runner', version: '8.5.11.3'
+
 }
 
 tasks.named('test') {
